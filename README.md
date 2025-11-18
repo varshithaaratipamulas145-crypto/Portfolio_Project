@@ -3,10 +3,10 @@
 *A clean, responsive personal portfolio built with HTML, CSS and JavaScript.*
 
 ## Live Deployment
-- Add your live deployment link here (GitHub Pages / Netlify / Vercel)
+-Deployment link ="https://github.com/varshithaaratipamulas145-crypto/Portfolio_Project/tree/master"
 
 ## GitHub Repository
-- Add your repository link here
+GitHub Repository link ="https://github.com/varshithaaratipamulas145-crypto/Portfolio_Project.git"
 
 ## Technologies Used
 - HTML5, CSS3 (Flexbox & Grid), JavaScript (ES6)
@@ -33,4 +33,5 @@ git clone https://github.com/your-username/portfolio.git
 - [ ] Contact form validated on front-end
 - [ ] Clean, commented code and folder structure
 - [ ] Live site deployed and accessible
+
 
