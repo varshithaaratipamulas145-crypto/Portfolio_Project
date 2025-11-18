@@ -1,4 +1,4 @@
-# Portfolio — Sravya Kondapalli
+# Portfolio — Varshitha Aratipamula
 
 *A clean, responsive personal portfolio built with HTML, CSS and JavaScript.*
 
@@ -33,3 +33,4 @@ git clone https://github.com/your-username/portfolio.git
 - [ ] Contact form validated on front-end
 - [ ] Clean, commented code and folder structure
 - [ ] Live site deployed and accessible
+
