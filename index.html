@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sravya Kondapalli — Portfolio</title>
+  <meta name="description" content="Portfolio of Sravya Kondapalli — projects, skills, and contact." />
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">MMS</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="links">
+        <a class="btn" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn ghost" href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <h1>Hi, I'm <span class="accent">Varshitha Aratipamula</span></h1>
+        <p class="subtitle">A front-end developer building responsive, accessible, and performant web experiences.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <img src="images/avatar.png" alt="Varshitha" class="avatar">
+        <p class="muted">Based in India — Open to opportunities</p>
+      </div>
+    </section>
+
+    <section id="about" class="about card">
+      <h2>About Me</h2>
+      <p>I build front-end applications using semantic HTML, modern CSS (Flexbox & Grid), and vanilla JavaScript. I care about performance, accessibility, and clear UX.</p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>HTML5</li><li>CSS3 (Grid / Flexbox)</li><li>JavaScript (ES6+)</li><li>Responsive Design</li><li>Version Control (Git)</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects card">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="images/project1.png" alt="Food Truck Calculator screenshot">
+          <h3>Food Truck Cost Calculator</h3>
+          <p>A dynamic JavaScript calculator that computes itemized totals, tax and grand total. Includes form validation and responsive layout.</p>
+          <small class="tech">HTML • CSS • JavaScript</small>
+          <div class="project-links">
+            <a href="https://example.com/demo1" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/your-username/food-truck" target="_blank" rel="noopener noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.png" alt="Turtle Navigation Game screenshot">
+          <h3>Turtle Navigation Game</h3>
+          <p>Interactive Logo-style turtle drawing toy. Implements keyboard controls and draws SVG lines based on commands.</p>
+          <small class="tech">HTML • CSS • JavaScript</small>
+          <div class="project-links">
+            <a href="https://example.com/demo2" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/your-username/turtle-game" target="_blank" rel="noopener noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.png" alt="Boolean Algebra Simplifier screenshot">
+          <h3>Boolean Algebra Simplifier</h3>
+          <p>A small app to simplify Boolean expressions using common algebraic rules. Includes explanation and step output.</p>
+          <small class="tech">HTML • CSS • JavaScript</small>
+          <div class="project-links">
+            <a href="https://example.com/demo3" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/your-username/bool-simplifier" target="_blank" rel="noopener noreferrer">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact card">
+      <h2>Contact</h2>
+      <p>If you'd like to work together or have questions — send a message.</p>
+      <div id="form-errors" class="form-errors" aria-live="polite" style="display:none"></div>
+      <form id="contact-form" novalidate>
+        <label>
+          Name
+          <input type="text" name="name" required minlength="2" placeholder="Your name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          Message
+          <textarea name="message" required minlength="10" placeholder="Tell me about your project..."></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Varshitha Aratipamula — Built with HTML, CSS & JavaScript</p>
+      <p class="muted">Hosted on GitHub Pages / Netlify / Vercel</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
